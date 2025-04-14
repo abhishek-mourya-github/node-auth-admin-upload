@@ -1,7 +1,7 @@
 # 🔐 Node.js Auth System with Admin Panel & Image Upload
 
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
-![Express](https://img.shields.io/badge/Express-4.x-lightgrey)
+![Node.js](https://img.shields.io/badge/Node.js-20.x-green)
+![Express](https://img.shields.io/badge/Express-5.x-lightgrey)
 ![JWT](https://img.shields.io/badge/JWT-Auth-orange)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-blue)
 
