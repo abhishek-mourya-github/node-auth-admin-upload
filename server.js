@@ -22,6 +22,10 @@ app.use('/api/image', uploadImageRoutes);
 // connect the database
 connectToDB();
 
+app.get('/', (req, res) => {
+    res.send("Welcome to our website"); // Send response to client
+})
+
 app.listen(PORT, () => {
     try {
         console.log(`Server start listening at ${PORT}`);
