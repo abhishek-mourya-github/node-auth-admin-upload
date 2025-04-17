@@ -15,13 +15,14 @@
 ## 🚀 Quick Start
 
 ### 1. Clone & Install
+
 ```bash
 git clone https://github.com/abhishek-mourya-github/node-auth-admin-upload.git
 cd node-auth-admin-upload
 npm install
+
 2. Configure Environment
 Create .env file:
-
 env
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_random_secret_key
@@ -32,8 +33,8 @@ PORT=3000
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
-3. Run Server
 
+3. Run Server
 npm start  # Production
 npm run dev  # Development (with nodemon)
 
@@ -78,8 +79,8 @@ JWT expiration (15min access, 7d refresh)
 Admin routes protected by middleware
 
 🌐 Deployment
-Heroku
-Create new Heroku app
+Render
+Create new Render app
 
 Set config vars (same as .env)
 
